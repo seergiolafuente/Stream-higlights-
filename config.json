@@ -1,0 +1,58 @@
+{
+  "canal": "Seergiolafuente",
+  "twitch_url": "twitch.tv/seergiolafuente",
+  "idioma": "es",
+
+  "youtube": {
+    "duracion_minima_min": 10,
+    "duracion_objetivo_min": 12,
+    "duracion_maxima_min": 18,
+    "clip_min_seg": 12,
+    "clip_max_seg": 75,
+    "teaser": true,
+    "tarjeta_titulo": true,
+    "rotulos_momento": true,
+    "outro_seg": 12,
+    "fps": 60,
+    "resolucion": [1920, 1080],
+    "subtitulos_srt": true
+  },
+
+  "shorts": {
+    "cantidad": 6,
+    "duracion_min_seg": 15,
+    "duracion_max_seg": 58,
+    "layout": "blur",
+    "facecam": {"x": 0.0, "y": 0.62, "w": 0.26, "h": 0.38},
+    "subtitulos": true,
+    "palabras_por_bloque": 3,
+    "fps": 60
+  },
+
+  "transcripcion": {
+    "activar": true,
+    "modelo_gpu": "large-v3-turbo",
+    "modelo_cpu": "small",
+    "dispositivo": "auto"
+  },
+
+  "ia_claude": {
+    "activar": true,
+    "modelo": "claude-opus-5-5",
+    "esfuerzo": "high"
+  },
+
+  "pesos": {
+    "audio": 1.0,
+    "risa": 1.2,
+    "movimiento": 0.5,
+    "corte_escena": 0.3,
+    "chat": 1.4,
+    "palabras": 1.0
+  },
+
+  "fuente": "Arial Black",
+  "fuente_subtitulos": "Arial Black",
+  "encoder": "auto",
+  "calidad": "alta"
+}
